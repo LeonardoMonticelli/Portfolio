@@ -1,0 +1,74 @@
+
+#nav {
+  text-align: center;
+  font-size: 150%;
+  font-family: Verdana;
+}
+
+#hom {
+  background-color: transparent;
+  color: black;
+  padding: 10px 25px;
+}
+
+a:link,
+a:visited {
+  background-color: rgb(55, 134, 253);
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  display: inline-block;
+  border-style: solid;
+  margin: 0px;
+  border-color: black;
+}
+
+a:hover {
+  background-color: rgb(235, 21, 21);
+  border-style: dotted;
+}
+
+a:active {
+  background-color: rgb(255, 204, 37);
+  font-size: 90%;
+  border-style: solid;
+  border-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 200%;
+  border: 2px Solid dodgerblue;
+  padding: 10px;
+}
+
+#sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+#para {
+  text-align: center;
+  font-family: Verdana;
+  overflow: auto;
+}
+
+pre {
+  text-align: center;
+  font-family: Courier;
+  color: darkblue;
+  border: 1px Solid powderblue;
+  padding: 5px;
+}
+
+#bdo {
+  text-align: right;
+}
+
+#wb {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48%;
+}

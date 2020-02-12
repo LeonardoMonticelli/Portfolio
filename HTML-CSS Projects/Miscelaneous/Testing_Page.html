@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+
+      th,
+      td {
+        padding: 5px;
+      }
+
+      td {
+        background-color: rgb(255, 217, 113);
+      }
+
+      th {
+        background-color: rgb(255, 193, 122);
+        text-align: left;
+      }
+
+      #meme {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #one {
+        background-color: yellowgreen;
+        width: 20%;
+      }
+
+      #two {
+        background-color: yellow;
+        width: 10em;
+      }
+
+      #ot {
+        background-color: gray;
+        display: inline-block;
+        width: 20px;
+        overflow: hidden;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 1em;
+        height: 12em;
+        overflow: auto;
+      }
+
+      #tbl {
+        box-sizing: border-box;
+      }
+
+      .mnl {
+        float:left;
+        width: 50%;
+      }
+      
+      .tab {
+        clear: both;
+        display: inline-block;
+        border: 1px solid black;
+        padding: 1em;
+      }
+    </style>
+
+    <title>Testing</title>
+  </head>
+
+  <body>
+    <table style="width:100%">
+      <tr>
+        <th title="A League of Legends Champion" rowspan="3">Jhin</th>
+        <th colspan="3">Basics</th>
+        <th colspan="1">Critical</th>
+      </tr>
+
+      <tr>
+        <td id="ll">one</td>
+        <td>two</td>
+        <td>three</td>
+        <td>FOUR!</td>
+      </tr>
+
+      <tr>
+        <td>one</td>
+        <td>two</td>
+        <td>three</td>
+        <td>FOUR!</td>
+      </tr>
+    </table>
+
+    <img
+      id="meme"
+      src="pics/jhin.jpg"
+      alt="Jhin"
+      style="width:500px;height:300px;"
+    />
+
+    <p id="one">
+      hello
+    </p>
+
+    <p id="two">
+      potato
+    </p>
+
+    <p id="ot">
+      Overflown text
+    </p>
+
+    <div id="tbl">
+      <span class="column" style="background-color:#aaa;">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+        est Lorem ipsum dolor sit amet.
+      </span>
+
+      <img
+        class="column"
+        src="pics/braum.jpg"
+        alt="braum"
+        style="height:12em;width:15em;background-color: #bbb"
+      />
+
+      <span class="column" style="background-color: #ccc">
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+        est Lorem ipsum dolor sit amet.
+      </span>
+    </div>
+    
+
+    <div class="mnl">
+      <span class="tab">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+        est Lorem ipsum dolor sit amet.
+      </span>
+    </div>
+
+    <div class="mnl">
+      <span class="tab">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+        rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+        ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+        elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo
+        dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
+        est Lorem ipsum dolor sit amet.
+      </span>
+    </div>
+  </body>
+</html>

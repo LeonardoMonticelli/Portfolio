@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo Monticelli JS Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div>Leonardo's JS Portfolio</div>
+        <div>JS projects made since this school year</div>
+    </div>
+
+    <div id="clock">
+        Seconds spent in the webpage:
+        <div id="seconds">0</div>
+    </div>
+
+    <div class="container">
+        <div>A basic calculator</div>
+        <div><input type="text" name="results" id="result" placeholder="0"></div>
+        <div class="bigCell">
+            <div class="cell cal" id="divide" onclick="makeOperation('divide', divide)">/</div>
+            <div class="cell cal" id="multiply" onclick="makeOperation('multiply', multiply)">*</div>
+            <div class="cell cal" id="minus" onclick="makeOperation('minus', minus)">-</div>
+            <div class="cell cal" id="plus" onclick="makeOperation('plus', plus)">+</div>
+        </div>
+        <div class="bigCell">
+            <div class="cell cal" onclick="button(7)">7</div>
+            <div class="cell cal" onclick="button(8)">8</div>
+            <div class="cell cal" onclick="button(9)">9</div>
+            <div class="cell cal" onclick="reset()">clear</div>
+        </div>
+        <div class="bigCell">
+            <div class="cell cal" onclick="button(4)">4</div>
+            <div class="cell cal" onclick="button(5)">5</div>
+            <div class="cell cal" onclick="button(6)">6</div>
+            <div class="cell cal" id="equal" onclick="makeOperation('equal')">=</div>
+        </div>
+        <div class="bigCell">
+            <div class="cell cal" onclick="button(1)">1</div>
+            <div class="cell cal" onclick="button(2)">2</div>
+            <div class="cell cal" onclick="button(3)">3</div>
+        </div>
+        <div class="cell cero cal" onclick="button(0)">0</div>
+    </div>
+
+    <div class="container">
+        <div id="beadCon">Creation of an image through a matrix</div>
+        <button onclick="createImage()">Create smiley face</button>
+        <button onclick="undoImage()">Undo</button>
+    </div>
+
+    <div class="container">
+        <p>click and draw something!</p>
+        <div id="contMatrix"></div>
+    </div>
+
+    <div class="container">
+        <p>A coloured table generator</p>
+        <input type="text" id="row" value=3 title="rows">
+        <input type="text" id="column" value=2 title="columns">
+        <select id="colors">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+        <button onclick="genTable()">Generate</button>
+        <button onclick="undoGenTable()">Undo Table</button>
+        <div id="cont"></div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
